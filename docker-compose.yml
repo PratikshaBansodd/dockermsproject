@@ -1,25 +1,25 @@
 version: '3.8'
 services:
   movies:
-    image: abduljavvadkhan786/movies:latest
+    image: pratikshabansod1/instagram
     ports:
       - "81:80"
     deploy:
       replicas: 3
   train:
-    image: abduljavvadkhan786/train:latest
+    image: pratikshabansod1/facebook
     ports:
       - "82:80"
     deploy:
       replicas: 3
   dth:
-    image: abduljavvadkhan786/dth:latest
+    image: pratikshabansod1/whatsaap
     ports:
       - "83:80"
     deploy:
       replicas: 3
   recharge:
-    image: abduljavvadkhan786/recharge:latest
+    image: pratikshabansod1/telegram
     ports:
       - "84:80"
     deploy:
